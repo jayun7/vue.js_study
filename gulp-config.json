@@ -1,0 +1,23 @@
+{
+  "image": {
+    "src": "./assets/images/**/*.*",
+    "dest": "./dist/images"
+  },
+  "html": {
+    "src": "./assets/html/**/*.html",
+    "dest": "./dist/html"
+  },
+  "sass": {
+    "src": "./sass/**/*.scss",
+    "dest": "./dist/css/",
+    "asset": "./assets/css"
+  },
+  "js": {
+    "src": "./src",
+    "dest": "./dist"
+  },
+  "publish": {
+    "src": "./assets/publish/**/*.*",
+    "dest": "./dist/publish"
+  }
+}
