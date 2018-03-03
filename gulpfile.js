@@ -6,4 +6,4 @@ const gulpsync = require('gulp-sync')(gulp);
 
 require('require-all')(path.resolve(__dirname, 'task'));
 
-gulp.task('build', gulpsync.sync([ 'build:sass', 'move:image', 'move:html', 'build:html', 'move:publish', 'build:app' ]));
+gulp.task('build', gulpsync.sync([ 'build:sass', 'move:image', 'move:example', 'build:example', 'move:publish', 'build:app' ]));

@@ -3,9 +3,9 @@
     "src": "./assets/images/**/*.*",
     "dest": "./dist/images"
   },
-  "html": {
-    "src": "./assets/html/**/*.html",
-    "dest": "./dist/html"
+  "example": {
+    "src": "./assets/examples/**/*.html",
+    "dest": "./dist/examples"
   },
   "sass": {
     "src": "./sass/**/*.scss",
