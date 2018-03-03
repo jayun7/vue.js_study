@@ -1,16 +1,10 @@
-# vue.js_study
+# vue.js study with Boilerplate 
 
 ## Setup & Build
 
 ```
 $ npm install
 $ gulp build
-```
-
-## Only Build SASS 
-
-```
-$ gulp build:sass
 ```
 
 ## Build with Uncompression & Unminify
